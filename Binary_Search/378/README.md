@@ -1,0 +1,1 @@
+用binary search來猜element的數值

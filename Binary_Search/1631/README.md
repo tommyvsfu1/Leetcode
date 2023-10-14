@@ -1,0 +1,2 @@
+用binary search來猜minimum effort  
+在檢驗effort時，只要能從左上角走到右下角時能保證相鄰的方塊的絕對值相差能夠小於等於目前猜測的effort，就代表此effort是可行的  

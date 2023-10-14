@@ -1,0 +1,1 @@
+跟84. Largest Rectangle in Histogram非常像的問題，你只要threshold想成area就知道怎麼解了

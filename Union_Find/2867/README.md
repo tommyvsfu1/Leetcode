@@ -1,0 +1,6 @@
+這題其實如果從DFS來想會發現很複雜，所以試著想想看VALID PATH是怎麼構成的  
+其實每條VALID PATH可以想成由某個質數作為中心點  
+1. 連接該質數的K個合數所對應的connected components(不包含該質數)，隨便從不同的connected components選兩個
+2. 或是從K個合數的connected components選一個connected component裡面的合數直接走到該質數
+
+所以其實可以個別討論每個質數，然後算1,2兩種的valid path，其中在算connected component時會用到union find

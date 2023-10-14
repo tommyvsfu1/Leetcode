@@ -1,0 +1,1 @@
+看到split left/right，算是蠻好想到用prefix/suffix的概念，整合起來就變成Three Pass問題了

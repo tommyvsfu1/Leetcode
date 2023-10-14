@@ -1,0 +1,3 @@
+BFS
+注意可以把group資訊放到visited裡面，這樣就能邊BFS邊檢查有沒有false 的情況
+(我原本的寫法是BFS完後建好兩個unordered set，最後在每個node的每個edge檢查有沒有false情況，但時間會很慢，time只贏過5%的人)

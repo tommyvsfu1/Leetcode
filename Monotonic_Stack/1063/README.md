@@ -1,0 +1,1 @@
+概念其實跟907那題很像，更廣義來說就是不直接找subarry，而是把每個index當作minimum，然後嘗試找有多少個subarray的組合，以這題來說就是找右邊界next Smaller

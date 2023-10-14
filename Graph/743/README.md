@@ -1,0 +1,2 @@
+很經典的shortest path問題\
+可以用Dijkstra來解

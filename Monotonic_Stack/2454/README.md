@@ -1,0 +1,1 @@
+因為我們需要查看second greater element，我們可以用兩個monotonic stack，第一個monotonic stack就是來看next greater element，而第二個monotonic stack就是來查看已經遇到過next greater element，並準備要看second greater element。也就是說第一個stack pop的時候就可以先加進第二個stack裡面，第二個stack pop才是真正有遇到second greater element
