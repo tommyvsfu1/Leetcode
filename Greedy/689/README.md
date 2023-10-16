@@ -1,0 +1,2 @@
+看到3個subarray，其實就可以想到或許能用Three Pass\
+我們可以專注找中間的subarray，然後以prefix/suffix的概念找左右最大的subarray，由於已經固定subarray長度為k，所以很簡單(如果沒有固定長度，就會變成maximum subarray問題)

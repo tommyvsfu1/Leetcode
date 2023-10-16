@@ -14,14 +14,20 @@
 [2488.Count Subarrays With Median K](./Prefix_Sum/2488/)\
 [2489.Number of Substrings With Fixed Ratio](./Prefix_Sum/2489/)\
 [2845.Count of Interesting Subarrays](./Prefix_Sum/2845/)\
-[2875.Minimum Size Subarray in Infinite Array](./Prefix_Sum/2875/)\
+[2875.Minimum Size Subarray in Infinite Array](./Prefix_Sum/2875/)
 
 ### Greedy
 #### Three Pass
+[334.Increasing Triplet Subsequence](./Greedy/334/)\
+[689.Maximum Sum of 3 Non-Overlapping Subarrays](./Greedy/689/)\
 [1525.Number of Good Ways to Split a String](./Greedy/1525/)\
 [1653.Minimum Deletions to Make String Balanced](./Greedy/1653/)\
 [1664.Ways to Make a Fair Array](./Greedy/1664/)\
-[2874.Maximum Value of an Ordered Triplet II](./Greedy/2874/)\
+[1671.Minimum Number of Removals to Make Mountain Array](./Greedy/1671/)\
+[1769.Minimum Number of Operations to Move All Balls to Each Box](./Greedy/1769/)\
+[1888.Minimum Number of Flips to Make the Binary String Alternating](./Greedy/1888/)\
+[2555.Maximize Win From Two Segments](./Greedy/2555/)\
+[2874.Maximum Value of an Ordered Triplet II](./Greedy/2874/)
 
 ### Binary Search
 [81.Search in Rotated Sorted Array II](./Binary_Search/81/)\
