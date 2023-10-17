@@ -1,5 +1,7 @@
 # Leetcode
 ### Two Pointers
+
+#### Sliding Window
 [1052.Grumpy Bookstore Owner](./Two_Pointers/1052/)
 
 ### Prefix Sum + Hash Map
