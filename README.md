@@ -1,4 +1,7 @@
 # Leetcode
+### Two Pointers
+[1052.Grumpy Bookstore Owner](./Two_Pointers/1052/)
+
 ### Prefix Sum + Hash Map
 [525.Contiguous Array](./Prefix_Sum/525/)\
 [930.Binary Subarrays With Sum](./Prefix_Sum/930/)\
@@ -26,6 +29,7 @@
 [1671.Minimum Number of Removals to Make Mountain Array](./Greedy/1671/)\
 [1769.Minimum Number of Operations to Move All Balls to Each Box](./Greedy/1769/)\
 [1888.Minimum Number of Flips to Make the Binary String Alternating](./Greedy/1888/)\
+[2163.Minimum Difference in Sums After Removal of Elements](./Greedy/2163/)
 [2555.Maximize Win From Two Segments](./Greedy/2555/)\
 [2874.Maximum Value of an Ordered Triplet II](./Greedy/2874/)
 

@@ -1,0 +1,2 @@
+這題因為有明確提到一個size為minutes的window，所以很就用sliding window\
+這題的sliding window因為是fixed size，所以用一個pointer其實就夠了

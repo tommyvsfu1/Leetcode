@@ -1,0 +1,3 @@
+雖然題目說要刪除size 為 n的subsequence，但老實說一點都不重要，我們直接找剩餘2個subsequence的分界點，然後minimize 左邊的subsequence，和maximize 右邊的subsequence就可以了\
+如果確定邊界，那麼如果要minimize/maximize subsequence其實就是挑選top K 大或小個元素就可以了，很明顯可以用heap\
+但如果我們每個邊界都算一次左右subsequence，速度太慢，所以我們可以沿用先前用過的heap，保留topK個就可以了
