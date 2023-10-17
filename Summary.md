@@ -16,6 +16,9 @@ prefix[i-1] = prefix[j] - S
 ## Greedy
 ### Three Pass
 目前感覺是同時用到prefix/suffix的概念都會算是Three Pass問題
+不一定每個pass都是O(n)，有可能O(nlogn)，看題目\
+對於prefix/suffix的資訊，可以很多種比如 leftMax, leftMin, rightMax, rightMin, Prefix Sum, Suffix Sum, Monotoinc Stack, ...\
+承上，比較難的題目會多用到其他技巧如DP/Monotonic Stack/Prefix Sum/...
 
 ## BFS
 Queue  
