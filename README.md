@@ -2,7 +2,12 @@
 ### Two Pointers
 
 #### Sliding Window
+[424.Longest Repeating Character Replacement](./Two_Pointers/424/)\
+[1004.Max Consecutive Ones III](./Two_Pointers/1004/)\
+[1358.Number of Substrings Containing All Three Characters](./Two_Pointers/1358/)\
 [1052.Grumpy Bookstore Owner](./Two_Pointers/1052/)
+[2024.Maximize the Confusion of an Exam](./Two_Pointers/2024/)\
+[2831.Find the Longest Equal Subarray](./Two_Pointers/2831/)
 
 ### Prefix Sum + Hash Map
 [525.Contiguous Array](./Prefix_Sum/525/)\

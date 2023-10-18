@@ -1,0 +1,1 @@
+用一個flip變數來確認是否可以讓window的right pointer繼續往下

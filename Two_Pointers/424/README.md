@@ -1,0 +1,1 @@
+這題關鍵在於window要如何選擇repeating character，其實就是選頻率最高的character作為repeating character，所以最多可以容忍 widow length - number of the max frequent character <= k 其他character
