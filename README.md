@@ -3,10 +3,14 @@
 
 #### Sliding Window
 [424.Longest Repeating Character Replacement](./Two_Pointers/424/)\
+[611. Valid Triangle Number](./Two_Pointers/611/)\
 [1004.Max Consecutive Ones III](./Two_Pointers/1004/)\
 [1358.Number of Substrings Containing All Three Characters](./Two_Pointers/1358/)\
 [1052.Grumpy Bookstore Owner](./Two_Pointers/1052/)\
+[1838. Frequency of the Most Frequent Element](./Two_Pointers/1838/)\
 [2024.Maximize the Confusion of an Exam](./Two_Pointers/2024/)\
+[2411. Smallest Subarrays With Maximum Bitwise OR](./Two_Pointers/2411/)\
+[2747. Count Zero Request Servers](./Two_Pointers/2747/)\
 [2831.Find the Longest Equal Subarray](./Two_Pointers/2831/)
 
 ### Prefix Sum + Hash Map
@@ -20,7 +24,7 @@
 [1590.Make Sum Divisible by P](./Prefix_Sum/1590/)\
 [1915.Number of Wonderful Substrings](./Prefix_Sum/1915/)\
 [1983.Widest Pair of Indices With Equal Range Sum](./Prefix_Sum/1983/)\
-[2025.Maximum Number of Ways to Partition an Array](./Prefix_Sum/2025/)
+[2025.Maximum Number of Ways to Partition an Array](./Prefix_Sum/2025/)\
 [2488.Count Subarrays With Median K](./Prefix_Sum/2488/)\
 [2489.Number of Substrings With Fixed Ratio](./Prefix_Sum/2489/)\
 [2845.Count of Interesting Subarrays](./Prefix_Sum/2845/)\

@@ -1,0 +1,1 @@
+這題我覺得比較像純two pointers的問題，牽扯到三個pointers，但我們可以透過先sort，然後從最大的元素開始，固定第三個pointer k，然後來用兩個pointer來算有多少的valid 情況
