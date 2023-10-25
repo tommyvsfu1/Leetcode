@@ -1,0 +1,2 @@
+這題sliding window是固定長度的，所以可以看到j和i會一起更新\
+然後這種固定長度的sliding window，一開始要先無腦直接讓右端點移到剛好符合長度，才開始slide
