@@ -3,13 +3,17 @@
 
 #### Sliding Window
 [76. Minimum Window Substring](./Two_Pointers/76/)\
+[159. Longest Substring with At Most Two Distinct Characters](./Two_Pointers/159/)\
+[340. Longest Substring with At Most K Distinct Characters](./Two_Pointers/340/)\
 [424.Longest Repeating Character Replacement](./Two_Pointers/424/)\
 [611. Valid Triangle Number](./Two_Pointers/611/)\
+[992. Subarrays with K Different Integers](./Two_Pointers/992/)\
 [1004.Max Consecutive Ones III](./Two_Pointers/1004/)\
 [1358.Number of Substrings Containing All Three Characters](./Two_Pointers/1358/)\
 [1052.Grumpy Bookstore Owner](./Two_Pointers/1052/)\
 [1838. Frequency of the Most Frequent Element](./Two_Pointers/1838/)\
 [2024.Maximize the Confusion of an Exam](./Two_Pointers/2024/)\
+[2537. Count the Number of Good Subarrays](./Two_Pointers/2357/)\
 [2411. Smallest Subarrays With Maximum Bitwise OR](./Two_Pointers/2411/)\
 [2461. Maximum Sum of Distinct Subarrays With Length K](./Two_Pointers/2461/)\
 [2747. Count Zero Request Servers](./Two_Pointers/2747/)\
