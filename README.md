@@ -23,11 +23,10 @@
 [2747. Count Zero Request Servers](./Two_Pointers/2747/)\
 [2831.Find the Longest Equal Subarray](./Two_Pointers/2831/)
 #### Two Sequences 
->個人認為比較不像其他two pointers題目，特別是指針擺法跟移動方向，可能會融合greedy想法，才會知道指針怎麼擺
 [986. Interval List Intersections](./Two_Pointers/986/)\
 [1537. Get the Maximum Score](./Two_Pointers/1537/)\
 [1775. Equal Sum Arrays With Minimum Number of Operations](./Two_Pointers/1775/)
-
+>個人認為比較不像其他two pointers題目，特別是指針擺法跟移動方向，可能會融合greedy想法，才會知道指針怎麼擺 
 ### Prefix Sum + Hash Map
 [525.Contiguous Array](./Prefix_Sum/525/)\
 [930.Binary Subarrays With Sum](./Prefix_Sum/930/)\
