@@ -1,5 +1,9 @@
 # Leetcode
 ### Two Pointers
+[15. 3Sum](./Two_Pointers/15/)\
+[16. 3Sum Closest](./Two_Pointers/16/)\
+[18. 4Sum](./Two_Pointers/18/)\
+[259. 3Sum Smaller](./Two_Pointers/259/)\
 
 #### Sliding Window
 [76. Minimum Window Substring](./Two_Pointers/76/)\
@@ -18,6 +22,11 @@
 [2461. Maximum Sum of Distinct Subarrays With Length K](./Two_Pointers/2461/)\
 [2747. Count Zero Request Servers](./Two_Pointers/2747/)\
 [2831.Find the Longest Equal Subarray](./Two_Pointers/2831/)
+#### Two Sequences 
+>個人認為比較不像其他two pointers題目，特別是指針擺法跟移動方向，可能會融合greedy想法，才會知道指針怎麼擺
+[986. Interval List Intersections](./Two_Pointers/986/)\
+[1537. Get the Maximum Score](./Two_Pointers/1537/)\
+[1775. Equal Sum Arrays With Minimum Number of Operations](./Two_Pointers/1775/)
 
 ### Prefix Sum + Hash Map
 [525.Contiguous Array](./Prefix_Sum/525/)\
