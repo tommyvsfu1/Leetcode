@@ -72,6 +72,14 @@
 [2040.Kth-Smallest-Product-of-Two-Sorted-Arrays](./Binary_Search/2040/)\
 [2226.Maximum-Candies-Allocated-to-K-Children](./Binary_Search/2226/)
 
+### Tree 
+#### Path in a tree
+[124. Binary Tree Maximum Path Sum](./Tree/124/)\
+[543. Diameter of Binary Tree](./Tree/543/)\
+[687. Longest Univalue Path](./Tree/687/)\
+[1522. Diameter of N-Ary Tree](./Tree/1522/)\
+>90%的Tree題目都是用recursion
+
 ### BFS (Including Topological Sort)
 [127.Word-Ladder](./BFS/127/)\
 [785.Is Graph Bipartite?](./BFS/785/)\

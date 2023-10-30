@@ -1,0 +1,2 @@
+543的變形題，一樣可以把path拆解成 拐點,左邊path,和右邊path\
+然後dfs的recursion條件就是要目前的node跟parent node的值必須一樣，才能增加path length
