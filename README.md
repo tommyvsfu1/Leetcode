@@ -73,11 +73,14 @@
 [2226.Maximum-Candies-Allocated-to-K-Children](./Binary_Search/2226/)
 
 ### Tree 
+[549. Binary Tree Longest Consecutive Sequence II](./Tree/549/)
 #### Path in a tree
 [124. Binary Tree Maximum Path Sum](./Tree/124/)\
 [543. Diameter of Binary Tree](./Tree/543/)\
 [687. Longest Univalue Path](./Tree/687/)\
 [1522. Diameter of N-Ary Tree](./Tree/1522/)\
+[2049. Count Nodes With the Highest Score](./Tree/2049/)\
+[2246. Longest Path With Different Adjacent Characters](./Tree/2246/)
 >90%的Tree題目都是用recursion
 
 ### BFS (Including Topological Sort)
