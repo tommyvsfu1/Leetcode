@@ -73,6 +73,10 @@
 [2226.Maximum-Candies-Allocated-to-K-Children](./Binary_Search/2226/)
 
 ### Tree 
+[112. Path Sum](./Tree/112/)\
+[173. Binary Search Tree Iterator](./Tree/173/)\
+[285. Inorder Successor in BST](./Tree/285/)\
+[437. Path Sum III](./Tree/437/)\
 [549. Binary Tree Longest Consecutive Sequence II](./Tree/549/)
 #### Path in a tree
 [124. Binary Tree Maximum Path Sum](./Tree/124/)\

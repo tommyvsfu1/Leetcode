@@ -1,0 +1,2 @@
+因為這題要是一步步的走訪recursion，所以其實改用stack來做in-order traversal就可以了\
+具體來說，就是每次都往left child走到底，那麼next就是st.top()，而接下來要先繼續從right child一路繼續往左走，才會知道下一個successor會是誰。
