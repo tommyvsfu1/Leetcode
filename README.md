@@ -75,7 +75,10 @@
 ### Tree 
 [112. Path Sum](./Tree/112/)\
 [173. Binary Search Tree Iterator](./Tree/173/)\
+[222. Count Complete Tree Nodes](./Tree/222/)\
+[270. Closest Binary Search Tree Value](./Tree/270/)\
 [285. Inorder Successor in BST](./Tree/285/)\
+[298. Binary Tree Longest Consecutive Sequence](./Tree/298/)\
 [437. Path Sum III](./Tree/437/)\
 [549. Binary Tree Longest Consecutive Sequence II](./Tree/549/)
 #### Path in a tree
