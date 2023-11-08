@@ -1,0 +1,1 @@
+看到invalid指向的是同level的其他node => 想到用level-order traversal(BFS)

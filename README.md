@@ -74,6 +74,7 @@
 
 ### Tree 
 [112. Path Sum](./Tree/112/)\
+[114. Flatten Binary Tree to Linked List](./Tree/114/)\
 [173. Binary Search Tree Iterator](./Tree/173/)\
 [222. Count Complete Tree Nodes](./Tree/222/)\
 [270. Closest Binary Search Tree Value](./Tree/270/)\
@@ -82,7 +83,9 @@
 [298. Binary Tree Longest Consecutive Sequence](./Tree/298/)\
 [437. Path Sum III](./Tree/437/)\
 [549. Binary Tree Longest Consecutive Sequence II](./Tree/549/)\
+[655. Print Binary Tree](./Tree/655/)\
 [897. Increasing Order Search Tree](./Tree/897/)\
+[1660. Correct a Binary Tree](./Tree/1660/)\
 [2445. Number of Nodes With Value One](./Tree/2445/)\
 #### Path in a tree
 [124. Binary Tree Maximum Path Sum](./Tree/124/)\
