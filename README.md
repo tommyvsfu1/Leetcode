@@ -59,6 +59,7 @@
 [2874.Maximum Value of an Ordered Triplet II](./Greedy/2874/)
 
 ### Binary Search
+[34. Find First and Last Position of Element in Sorted Array](./Binary_Search/34/)\
 [81.Search in Rotated Sorted Array II](./Binary_Search/81/)\
 [215.Kth-Largest-Element-in-an-Array](./Binary_Search/215/)\
 [373.Find-K-Pairs-with-Smallest-Sums](./Binary_Search/373/)\
@@ -145,4 +146,9 @@
 [2867.Count Valid Paths in a Tree](./Union_Find/2867/)
 
 ### Dynamic Programming
+#### 基本型
+[1839. Longest Substring Of All Vowels in Order](./Dynamic_Programming/1839/)
+#### 背包型
+[879. Profitable Schemes](./Dynamic_Programming/879/)
+#### 其他
 [2355.Maximum Number of Books You Can Take](./Monotonic_Stack/2355/) 

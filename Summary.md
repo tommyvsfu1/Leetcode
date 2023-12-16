@@ -54,6 +54,17 @@ dp[i][j] = min(dp[i][j], dp[i][k] + dp[k][j])
 >跟2.很類似，都是猜答案，然後count有多少個符合。正確答案會發生在cout==K的時候  
 >在算count >, =, < k的時候，等號"="到底是放在大於還是小於，可以單獨先想是等號時是移動left還是right  
 >或者就直接分成>, =, <三種情況也可以，思考會比較清楚
+
+#### Note 1
+對於Top-K problem，很常用到GreaterThanOrEqual或是SmallerThanOrEqual兩種函式\
+count = GreaterThanOrEqual(nums, mid)，若count == k，那麼會讓low = mid，因為當count == k，代表目前mid一定小於或等於K-th largest element，如果大於那count就會是k-1了，你可以心理想一個實數軸，把K-th largest element和mid的值放在軸上想\
+反之，如果用SmallerThanOrEqual，則是反過來讓high = mid
+#### Note 2
+```
+int mid = low + (high - low) / 2; // 更新: low=mid+1，high=mid
+int mid = low + (higt - low+1) / 2; // 更新: low=mid，high=mid-1
+```
+>注意如果是用while(left < high)的寫法，low,high只有一個會是mid的offset
 ## Monotonic Stack
 1. Next/Prev Greater/Smaller element
 2. subarray minimum/maximum (把元素當作最小值，找區間的左邊界/右邊界)
