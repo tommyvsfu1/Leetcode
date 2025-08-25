@@ -99,7 +99,8 @@
 [236. Lowest Common Ancestor of a Binary Tree](./Tree/236/)\
 [1644. Lowest Common Ancestor of a Binary Tree II](./Tree/1644/)\
 [1650. Lowest Common Ancestor of a Binary Tree III](./Tree/1650/)\
-[1676. Lowest Common Ancestor of a Binary Tree IV](./Tree/1676/)
+[1676. Lowest Common Ancestor of a Binary Tree IV](./Tree/1676/)\
+[2096. Step-By-Step Directions From a Binary Tree Node to Another](./Tree/2096/)\
 >90%的Tree題目都是用recursion
 
 ### BFS (Including Topological Sort)
