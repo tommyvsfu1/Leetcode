@@ -101,6 +101,7 @@
 [1644. Lowest Common Ancestor of a Binary Tree II](./Tree/1644/)\
 [1650. Lowest Common Ancestor of a Binary Tree III](./Tree/1650/)\
 [1676. Lowest Common Ancestor of a Binary Tree IV](./Tree/1676/)\
+[1740. Find Distance in a Binary Tree](./Tree/1740/)\
 [2096. Step-By-Step Directions From a Binary Tree Node to Another](./Tree/2096/)\
 [2509. Cycle Length Queries in a Tree](./Tree/2509/)\
 >90%的Tree題目都是用recursion
