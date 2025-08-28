@@ -72,7 +72,7 @@
 [1918.Kth-Smallest-Subarray-Sum](./Binary_Search/1918/)\
 [2040.Kth-Smallest-Product-of-Two-Sorted-Arrays](./Binary_Search/2040/)\
 [2226.Maximum-Candies-Allocated-to-K-Children](./Binary_Search/2226/)
-
+[2563. Count the Number of Fair Pairs](./Binary_Search/2563/)\
 ### Tree 
 [112. Path Sum](./Tree/112/)\
 [114. Flatten Binary Tree to Linked List](./Tree/114/)\
