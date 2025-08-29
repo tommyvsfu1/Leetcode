@@ -156,3 +156,7 @@
 [879. Profitable Schemes](./Dynamic_Programming/879/)
 #### 其他
 [2355.Maximum Number of Books You Can Take](./Monotonic_Stack/2355/) 
+
+
+### Bit_Manipulation
+[29. Divide Two Integers](./Bit_Manipulation/29/)\
