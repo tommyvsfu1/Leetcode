@@ -62,6 +62,7 @@
 [34. Find First and Last Position of Element in Sorted Array](./Binary_Search/34/)\
 [81.Search in Rotated Sorted Array II](./Binary_Search/81/)\
 [215.Kth-Largest-Element-in-an-Array](./Binary_Search/215/)\
+[302. Smallest Rectangle Enclosing Black Pixels](./Binary_Search/302/)\
 [373.Find-K-Pairs-with-Smallest-Sums](./Binary_Search/373/)\
 [378.Kth-Smallest-Element-in-a-Sorted-Matrix](./Binary_Search/378/)\
 [786.K-th Smallest-Prime-Fraction](./Binary_Search/786/)\
