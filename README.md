@@ -75,6 +75,7 @@
 [2226.Maximum-Candies-Allocated-to-K-Children](./Binary_Search/2226/)\
 [2563. Count the Number of Fair Pairs](./Binary_Search/2563/)\
 [1533. Find the Index of the Large Integer](./Binary_Search/1533/)\
+[668. Kth Smallest Number in Multiplication Table](./Binary_Search/668/)\
 ### Tree 
 [112. Path Sum](./Tree/112/)\
 [114. Flatten Binary Tree to Linked List](./Tree/114/)\
