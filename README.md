@@ -61,21 +61,26 @@
 ### Binary Search
 [34. Find First and Last Position of Element in Sorted Array](./Binary_Search/34/)\
 [81.Search in Rotated Sorted Array II](./Binary_Search/81/)\
-[215.Kth-Largest-Element-in-an-Array](./Binary_Search/215/)\
 [302. Smallest Rectangle Enclosing Black Pixels](./Binary_Search/302/)\
+[1482.Minimum-Number-of-Days-to-Make-m-Bouquets](./Binary_Search/1482/)\
+[1631.Path-With-Minimum-Effort](./Binary_Search/1631/)\
+[1870.Minimum Speed to Arrive on Time](./Binary_Search/1870/)\
+
+[2226.Maximum-Candies-Allocated-to-K-Children](./Binary_Search/2226/)\
+[2563. Count the Number of Fair Pairs](./Binary_Search/2563/)\
+[1533. Find the Index of the Large Integer](./Binary_Search/1533/)\
+
+*  Find K-th Element
+[215.Kth-Largest-Element-in-an-Array](./Binary_Search/215/)\
 [373.Find-K-Pairs-with-Smallest-Sums](./Binary_Search/373/)\
 [378.Kth-Smallest-Element-in-a-Sorted-Matrix](./Binary_Search/378/)\
 [786.K-th Smallest-Prime-Fraction](./Binary_Search/786/)\
 [1439.Find-the-Kth-Smallest-Sum-of-a-Matrix-With-Sorted-Rows](./Binary_Search/1439/)\
-[1482.Minimum-Number-of-Days-to-Make-m-Bouquets](./Binary_Search/1482/)\
-[1631.Path-With-Minimum-Effort](./Binary_Search/1631/)\
-[1870.Minimum Speed to Arrive on Time](./Binary_Search/1870/)\
 [1918.Kth-Smallest-Subarray-Sum](./Binary_Search/1918/)\
 [2040.Kth-Smallest-Product-of-Two-Sorted-Arrays](./Binary_Search/2040/)\
-[2226.Maximum-Candies-Allocated-to-K-Children](./Binary_Search/2226/)\
-[2563. Count the Number of Fair Pairs](./Binary_Search/2563/)\
-[1533. Find the Index of the Large Integer](./Binary_Search/1533/)\
 [668. Kth Smallest Number in Multiplication Table](./Binary_Search/668/)\
+[1539. Kth Missing Positive Number](./Binary_Search/1539/)\
+
 ### Tree 
 [112. Path Sum](./Tree/112/)\
 [114. Flatten Binary Tree to Linked List](./Tree/114/)\
