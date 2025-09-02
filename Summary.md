@@ -50,7 +50,7 @@ dp[i][j] = min(dp[i][j], dp[i][k] + dp[k][j])
 ## Binary Search
 1. Search in sorted data
 2. Guess a solution in solution space (solution space usually be monotonic such as 0~INT_MAX)
-3. Top-k problem
+3. Find kth element / Top-k problem
 >跟2.很類似，都是猜答案，然後count有多少個符合。正確答案會發生在cout==K的時候  
 >在算count >, =, < k的時候，等號"="到底是放在大於還是小於，可以單獨先想是等號時是移動left還是right  
 >或者就直接分成>, =, <三種情況也可以，思考會比較清楚
