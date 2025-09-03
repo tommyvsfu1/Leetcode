@@ -80,7 +80,7 @@
 [2040.Kth-Smallest-Product-of-Two-Sorted-Arrays](./Binary_Search/2040/)\
 [668. Kth Smallest Number in Multiplication Table](./Binary_Search/668/)\
 [1539. Kth Missing Positive Number](./Binary_Search/1539/)\
-
+[719. Find K-th Smallest Pair Distance](./Binary_Search/719/)\
 ### Tree 
 [112. Path Sum](./Tree/112/)\
 [114. Flatten Binary Tree to Linked List](./Tree/114/)\
