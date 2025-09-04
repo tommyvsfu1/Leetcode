@@ -69,7 +69,8 @@
 [2226.Maximum-Candies-Allocated-to-K-Children](./Binary_Search/2226/)\
 [2563. Count the Number of Fair Pairs](./Binary_Search/2563/)\
 [1533. Find the Index of the Large Integer](./Binary_Search/1533/)\
-
+*  Binary Search by Value
+[3639. Minimum Time to Activate String](./Binary_Search/3639/)\
 *  Find K-th Element\
 [215.Kth-Largest-Element-in-an-Array](./Binary_Search/215/)\
 [373.Find-K-Pairs-with-Smallest-Sums](./Binary_Search/373/)\
