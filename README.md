@@ -72,6 +72,7 @@
 
 *  Binary Search by Value\
 [3639. Minimum Time to Activate String](./Binary_Search/3639/)\
+[3048. Earliest Second to Mark Indices I](./Binary_Search/3048/)\
 
 *  Find K-th Element\
 [215.Kth-Largest-Element-in-an-Array](./Binary_Search/215/)\
