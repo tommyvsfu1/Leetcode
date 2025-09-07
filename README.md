@@ -70,6 +70,9 @@
 [2563. Count the Number of Fair Pairs](./Binary_Search/2563/)\
 [1533. Find the Index of the Large Integer](./Binary_Search/1533/)\
 
+*  Binary Lifting
+[1483. Kth Ancestor of a Tree Node](./Binary_Search/1483/)\
+
 *  Binary Search by Value\
 [3639. Minimum Time to Activate String](./Binary_Search/3639/)\
 [3048. Earliest Second to Mark Indices I](./Binary_Search/3048/)\
