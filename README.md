@@ -103,6 +103,8 @@
 [897. Increasing Order Search Tree](./Tree/897/)\
 [1660. Correct a Binary Tree](./Tree/1660/)\
 [2445. Number of Nodes With Value One](./Tree/2445/)\
+[2277. Closest Node to Path in Tree](./Tree/2277/)\
+
 #### Path in a tree
 [124. Binary Tree Maximum Path Sum](./Tree/124/)\
 [543. Diameter of Binary Tree](./Tree/543/)\
