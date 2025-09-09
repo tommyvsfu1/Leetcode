@@ -177,3 +177,6 @@
 
 ### Bit_Manipulation
 [29. Divide Two Integers](./Bit_Manipulation/29/)\
+
+### Math
+[204. Count Primes](./Math/204/)\
