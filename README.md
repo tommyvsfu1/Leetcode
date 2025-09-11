@@ -129,7 +129,7 @@
 [785.Is Graph Bipartite?](./BFS/785/)\
 [1162.As Far from Land as Possible](./BFS/1162/)\
 [1462.Course Schedule IV](./BFS/1462/)
-
+[2812. Find the Safest Path in a Grid](./BFS/2812/)\
 ### DFS
 [37.Sudoku Solver](./DFS/37.Sudoku-Solver/)\
 [473.Matchsticks to Square](./DFS/473-matchsticks-to-square/)\
