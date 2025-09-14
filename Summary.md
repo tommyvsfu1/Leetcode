@@ -148,7 +148,7 @@ public:
     }
 };
 ```
-### Binary Construction (using inorder traversal + preorder/postorder traversal)
+### Binary Tree Construction (using inorder traversal + preorder/postorder traversal)
 核心概念: 建立hashMap mp[inorder[i]] = i  
 接著DFS 從上層一路recursive建立node，每次切分右子樹與左子樹，從preorder/postorder traversal的數列知道root，接著左子樹數量可以透過inorder 數列判斷  
 Inorder + Preorder
