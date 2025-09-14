@@ -5,6 +5,9 @@
 
 2. 控制i, j 從同邊開始移動 (sliding window)
 
+---
+
+
 ## Sliding Window
 Template  
 ```
@@ -16,6 +19,9 @@ for (int i = 0; i < boundary condition; i++) {
 }
 ```
 通常會需要constant time的處理來維護這個sliding window的一些資訊  
+
+---
+
 
 ## Prefix Sum
 
@@ -31,6 +37,7 @@ prefix[i-1] = prefix[j] - S
 大方向就是把數學式子寫出來，看要怎麼hash map查找\
 比如Divisible的問題用到的概念就是arr[j:i]如果要divisible，就代表```sum(arr[j:i]) % k == 0```，其實就代表```presum[i] % k - presum[j-1] % k = 0```，也就是```presum[i] % k == presum[j-1] % k```
 
+---
 
 ## Greedy
 ### Three Pass
@@ -38,6 +45,8 @@ prefix[i-1] = prefix[j] - S
 不一定每個pass都是O(n)，有可能O(nlogn)，看題目\
 對於prefix/suffix的資訊，可以很多種比如 leftMax, leftMin, rightMax, rightMin, Prefix Sum, Suffix Sum, Monotoinc Stack, ...\
 承上，比較難的題目會多用到其他技巧如DP/Monotonic Stack/Prefix Sum/...
+
+---
 
 ## BFS
 Queue  
@@ -50,8 +59,11 @@ Queue
 如果是minimum distance，並且都是equal weight，BFS是一種求法
 
 ### Topological Sort
-預先算好每個node的indegree，從indegree=0的nodes開始剝洋蔥
+預先算好每個node的indegree，從indegree=0的nodes開始剝洋蔥  
 如果要把先前的node資訊帶給這層的node，可以用vector<unordered_set<int>> PreSet
+
+---
+
 ## Tree
 ### Traversal
 三種深度優先遍歷（DFS）只差在「拜訪節點（visit）發生的時機」
@@ -101,6 +113,8 @@ public:
     }
 };
 ```
+---
+
 ## Graph
 
 ### Dijkstra
@@ -120,10 +134,14 @@ dp[i][j] = min(dp[i][j], dp[i][k] + dp[k][j])
 經典題785.Is Graph Bipartite?
 對每個點做BFS，開始0,1塗色，如果違反塗色規則，代表存在奇數環，不是Bipartite
 
+---
+
 ## DFS
 ### Backtracking
 通常可以用index或visited來避免重複拜訪
 基本上就是recursion暴力解就對了
+
+---
 
 ## Binary Search
 1. Search in sorted data
@@ -145,12 +163,17 @@ int mid = low + (high - low) / 2; // 更新: low=mid+1，high=mid
 int mid = low + (higt - low+1) / 2; // 更新: low=mid，high=mid-1
 ```
 >注意如果是用while(left < high)的寫法，low,high只有一個會是mid的offset
+
+---
+
 ## Monotonic Stack
 1. Next/Prev Greater/Smaller element
 2. subarray minimum/maximum (把元素當作最小值，找區間的左邊界/右邊界)
 3. 遞減序列/遞增序列
 4. (tricky) Largest Rectangle in Histogram related problems
 >idea: 先找高度，然後找左右邊界
+
+---
 
 ## Union Find
 1. Undirected Graph cycle detection (E.g redundant connection problem)
