@@ -51,7 +51,7 @@ Queue
 
 ### Topological Sort
 預先算好每個node的indegree，從indegree=0的nodes開始剝洋蔥
-
+如果要把先前的node資訊帶給這層的node，可以用vector<unordered_set<int>> PreSet
 ## Tree
 ### Traversal
 三種深度優先遍歷（DFS）只差在「拜訪節點（visit）發生的時機」
