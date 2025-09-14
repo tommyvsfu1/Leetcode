@@ -148,6 +148,40 @@ public:
     }
 };
 ```
+### Binary Construction (using inorder traversal + preorder/postorder traversal)
+核心概念: 建立hashMap mp[inorder[i]] = i  
+接著DFS 從上層一路recursive建立node，每次切分右子樹與左子樹，從preorder/postorder traversal的數列知道root，接著左子樹數量可以透過inorder 數列判斷  
+Inorder + Preorder
+```
+class Solution {
+public:
+    TreeNode* root;
+    unordered_map<int,int> mp;
+    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
+        if (preorder.size() == 0) return NULL;
+
+        for (int i = 0; i < inorder.size(); i++)
+            mp[inorder[i]] = i;
+
+        root = dfs(preorder, 0, preorder.size() - 1, inorder, 0, inorder.size() - 1);
+
+        return root;
+    }
+    TreeNode* dfs(vector<int>& pre, int a, int b, vector<int>& in, int m, int n) {
+        if (a > b || m > n) return NULL;
+
+        TreeNode* root = new TreeNode(pre[a]);
+
+        int pos = mp[pre[a]];
+        int L = pos - m;
+
+        root->left = dfs(pre, a + 1, a + L, in, m, pos-1);
+        root->right = dfs(pre, a + L + 1, b, in, pos + 1, n);
+        return root;
+    }
+};
+```
+
 ---
 
 # Graph
