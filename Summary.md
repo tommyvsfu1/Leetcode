@@ -35,6 +35,9 @@ Queue
 ### LCA
 DFS+counter，如果curr node的右子樹 + 左子樹為2，代表當下的curr node為LCA
 ```
+class Solution {
+    TreeNode* res = NULL;
+public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         dfs(root, p, q);
         return res;
@@ -51,6 +54,7 @@ DFS+counter，如果curr node的右子樹 + 左子樹為2，代表當下的curr 
         return total;
 
     }
+};
 ```
 ## Graph
 
