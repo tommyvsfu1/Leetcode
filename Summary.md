@@ -56,7 +56,27 @@ Queue
 ### Traversal
 三種深度優先遍歷（DFS）只差在「拜訪節點（visit）發生的時機」
 <img width="670" height="411" alt="image" src="https://github.com/user-attachments/assets/1cbec5dd-e0d1-4c36-adae-88ff34fb1ccf" />
+### Diameter and LongestPathToLeaf
+```
+class Solution {
+public:
+    int res = 0;
+    int diameterOfBinaryTree(TreeNode* root) {
+        LongestPathToLeaf(root);
+        return res - 1; // -1是因為res最後拿到的值是#(左子樹最深節點 + 右子樹最深節點 + 該Node)，所以要-1才能得到edge number 
+    }
+    int LongestPathToLeaf(TreeNode* curr) { 
+        if (curr == NULL) return 0;
 
+        int leftSum = LongestPathToLeaf(curr->left); // curr->left 到最深的leaf有幾個節點 (包含curr->left)
+        int rightSum = LongestPathToLeaf(curr->right); // curr->right 到最深的leaf有幾個節點 (包含curr->right)
+
+        res = max(res, leftSum + rightSum + 1);
+
+        return max(leftSum, rightSum) + 1;
+    }
+};
+```
 ### LCA
 DFS+counter，如果curr node的右子樹 + 左子樹為2，代表當下的curr node為LCA
 ```
