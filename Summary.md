@@ -29,8 +29,8 @@ Queue
 預先算好每個node的indegree，從indegree=0的nodes開始剝洋蔥
 ## Tree
 ### Traversal
-Inorder, PostOrder, PreOrder 都用DFS
-<img width="870" height="611" alt="image" src="https://github.com/user-attachments/assets/1cbec5dd-e0d1-4c36-adae-88ff34fb1ccf" />
+三種深度優先遍歷（DFS）只差在「拜訪節點（visit）發生的時機」
+<img width="670" height="411" alt="image" src="https://github.com/user-attachments/assets/1cbec5dd-e0d1-4c36-adae-88ff34fb1ccf" />
 
 
 
