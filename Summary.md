@@ -68,6 +68,41 @@ Queue
 ### Traversal
 三種深度優先遍歷（DFS）只差在「拜訪節點（visit）發生的時機」
 <img width="670" height="411" alt="image" src="https://github.com/user-attachments/assets/1cbec5dd-e0d1-4c36-adae-88ff34fb1ccf" />
+### Level Order Traversal
+BFS剝洋蔥   
+類似題: 199. Binary Tree Right Side View  
+```
+class Solution {
+public:
+    vector<vector<int>> res;
+    vector<vector<int>> levelOrder(TreeNode* root) {
+        queue<TreeNode*> q;
+
+        if (root)
+            q.push(root);
+
+        while(!q.empty()) {
+            int len = q.size();
+            
+            vector<int> r;
+
+            while(len--) {
+                TreeNode* node = q.front();
+
+                r.push_back(node->val);
+
+                if (node->left) q.push(node->left);
+                if (node->right) q.push(node->right);
+
+                q.pop();
+            }
+
+            res.push_back(r);
+        }
+        return res;
+    }
+};
+```
 ### Diameter and LongestPathToLeaf
 ```
 class Solution {
