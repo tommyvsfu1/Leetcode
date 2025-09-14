@@ -32,8 +32,26 @@ Queue
 三種深度優先遍歷（DFS）只差在「拜訪節點（visit）發生的時機」
 <img width="670" height="411" alt="image" src="https://github.com/user-attachments/assets/1cbec5dd-e0d1-4c36-adae-88ff34fb1ccf" />
 
+### LCA
+DFS+counter，如果curr node的右子樹 + 左子樹為2，代表當下的curr node為LCA
+```
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        dfs(root, p, q);
+        return res;
+    }
+    int dfs(TreeNode* node, TreeNode* p, TreeNode* q) {
+        if (node == NULL) return 0;
 
+        int left = dfs(node->left, p, q);
+        int right = dfs(node->right, p, q);
+        int self = ((node == p) || (node == q));
+        int total = left + right + self;
+        if (total == 2 && res == NULL)
+            res = node;
+        return total;
 
+    }
+```
 ## Graph
 
 ### Dijkstra
