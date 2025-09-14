@@ -27,6 +27,12 @@ Queue
 
 ### Topological Sort
 預先算好每個node的indegree，從indegree=0的nodes開始剝洋蔥
+## Tree
+### Traversal
+Inorder, PostOrder, PreOrder 都用DFS
+<img width="870" height="611" alt="image" src="https://github.com/user-attachments/assets/1cbec5dd-e0d1-4c36-adae-88ff34fb1ccf" />
+
+
 
 ## Graph
 
