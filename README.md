@@ -168,6 +168,9 @@
 [2867.Count Valid Paths in a Tree](./Union_Find/2867/)
 
 ### Dynamic Programming
+#### 1D
+[198. House Robber](./Dynamic_Programming/198/)\
+
 #### 基本型
 [1839. Longest Substring Of All Vowels in Order](./Dynamic_Programming/1839/)
 #### 背包型
