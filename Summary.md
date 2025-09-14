@@ -1,5 +1,5 @@
 # Leetcode
-## Two Pointer
+# Two Pointer
 1.控制left, right，從左右往中間移動
 >移動left還是移動right  ，取決於題目定義，預期可以用constant time知道要移動left還right
 
@@ -8,7 +8,7 @@
 ---
 
 
-## Sliding Window
+# Sliding Window
 Template  
 ```
 int j = 0;
@@ -23,7 +23,7 @@ for (int i = 0; i < boundary condition; i++) {
 ---
 
 
-## Prefix Sum
+# Prefix Sum
 
 ### Subarray equal to K
 ```
@@ -39,7 +39,7 @@ prefix[i-1] = prefix[j] - S
 
 ---
 
-## Greedy
+# Greedy
 ### Three Pass
 目前感覺是同時用到prefix/suffix的概念都會算是Three Pass問題
 不一定每個pass都是O(n)，有可能O(nlogn)，看題目\
@@ -48,7 +48,7 @@ prefix[i-1] = prefix[j] - S
 
 ---
 
-## BFS
+# BFS
 Queue  
 起始點要注意一下    
 每層loop有沒有一定要pop完，要看題目(比如有些題目是多節點開始BFS看shortest path到某些方格，那這樣就要pop完才能確保算cost/step時能正確)  
@@ -64,7 +64,7 @@ Queue
 
 ---
 
-## Tree
+# Tree
 ### Traversal
 三種深度優先遍歷（DFS）只差在「拜訪節點（visit）發生的時機」
 <img width="670" height="411" alt="image" src="https://github.com/user-attachments/assets/1cbec5dd-e0d1-4c36-adae-88ff34fb1ccf" />
@@ -115,7 +115,7 @@ public:
 ```
 ---
 
-## Graph
+# Graph
 
 ### Dijkstra
 BFS + Priority Queue
@@ -136,14 +136,14 @@ dp[i][j] = min(dp[i][j], dp[i][k] + dp[k][j])
 
 ---
 
-## DFS
+# DFS
 ### Backtracking
 通常可以用index或visited來避免重複拜訪
 基本上就是recursion暴力解就對了
 
 ---
 
-## Binary Search
+# Binary Search
 1. Search in sorted data
 2. Guess a solution in solution space (solution space usually be monotonic such as 0~INT_MAX)
 3. Find kth element / Top-k problem
@@ -166,7 +166,7 @@ int mid = low + (higt - low+1) / 2; // 更新: low=mid，high=mid-1
 
 ---
 
-## Monotonic Stack
+# Monotonic Stack
 1. Next/Prev Greater/Smaller element
 2. subarray minimum/maximum (把元素當作最小值，找區間的左邊界/右邊界)
 3. 遞減序列/遞增序列
@@ -175,7 +175,7 @@ int mid = low + (higt - low+1) / 2; // 更新: low=mid，high=mid-1
 
 ---
 
-## Union Find
+# Union Find
 1. Undirected Graph cycle detection (E.g redundant connection problem)
 2. connected components相關問題    
 3. Minimum Spanning Tree (MST) : 用Kruskal (先排序edges，再依序從最小edge開始加入。判斷cycle用union find) 
