@@ -24,7 +24,8 @@ for (int i = 0; i < boundary condition; i++) {
 prefix[i:j] = prefix[j] - prefix[i-1] = S
 prefix[i-1] = prefix[j] - S
 ```
-所以，我們只要one pass，每次看有多少個prefix[i-1] == prefix[j] - S
+所以，我們只要one pass，每次看有多少個prefix[i-1] == prefix[j] - S 
+**多少個index滿足，可以維護一個unordered_map，對應mp[prefix_sum] = counter或index**
 
 ### Divisible or Modulo Related Problems
 大方向就是把數學式子寫出來，看要怎麼hash map查找\
