@@ -247,4 +247,15 @@ int mid = low + (higt - low+1) / 2; // 更新: low=mid，high=mid-1
 # Union Find
 1. Undirected Graph cycle detection (E.g redundant connection problem)
 2. connected components相關問題    
-3. Minimum Spanning Tree (MST) : 用Kruskal (先排序edges，再依序從最小edge開始加入。判斷cycle用union find) 
+3. Minimum Spanning Tree (MST) : 用Kruskal (先排序edges，再依序從最小edge開始加入。判斷cycle用union find)
+
+---
+
+# Dynamic Programming
+#### 基本型I
+給出一個序列(數組/字符串)，其中每一個元素可以認為"一天"，並且"今天"的狀態只取決於"昨天"的狀態
+* 定義dp[i][j]: 表示第i-th輪的第j種狀態 (j=1...k)
+* 千方百計將dp[i][j] 與 前一輪的dp[i-1][j]產生關係 (j=1...k)
+* 最終結果是dp[last][j]中的某種aggregation (sum, max, min)
+
+
