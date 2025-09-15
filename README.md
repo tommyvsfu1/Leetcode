@@ -168,10 +168,18 @@
 [2867.Count Valid Paths in a Tree](./Union_Find/2867/)
 
 ### Dynamic Programming
-#### 1D
-[198. House Robber](./Dynamic_Programming/198/)\
 
-#### 基本型
+#### 基本型I
+[198. House Robber](./Dynamic_Programming/198/)\
+[213. House Robber II](./Dynamic_Programming/213)\
+[123. Best Time to Buy and Sell Stock III](./Dynamic_Programming/123)\
+[309. Best Time to Buy and Sell Stock with Cooldown](./Dynamic_Programming/309)\
+[376. Wiggle Subsequence](./Dynamic_Programming/376)\
+[256. Paint House](./Dynamic_Programming/256)\
+
+#### To do or Not To Do
+[487. Max Consecutive Ones II](./Dynamic_Programming/487)\
+
 [1839. Longest Substring Of All Vowels in Order](./Dynamic_Programming/1839/)
 #### 背包型
 [879. Profitable Schemes](./Dynamic_Programming/879/)
