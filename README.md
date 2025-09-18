@@ -180,6 +180,14 @@
 #### To do or Not To Do
 [487. Max Consecutive Ones II](./Dynamic_Programming/487)\
 
+#### 雙序列
+[727. Minimum Window Subsequence](./Dynamic_Programming/727/)\
+
+#### 第I類區間型
+[1278. Palindrome Partitioning III](./Dynamic_Programming/1278)\
+[813. Largest Sum of Averages](./Dynamic_Programming/813)\
+
+
 [1839. Longest Substring Of All Vowels in Order](./Dynamic_Programming/1839/)
 #### 背包型
 [879. Profitable Schemes](./Dynamic_Programming/879/)
