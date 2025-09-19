@@ -186,7 +186,10 @@
 #### 第I類區間型
 [1278. Palindrome Partitioning III](./Dynamic_Programming/1278)\
 [813. Largest Sum of Averages](./Dynamic_Programming/813)\
+[410. Split Array Largest Sum](./Dynamic_Programming/410/)\
 
+#### 第II類區間型
+[516. Longest Palindromic Subsequence](./Dynamic_Programming/516)\
 
 [1839. Longest Substring Of All Vowels in Order](./Dynamic_Programming/1839/)
 #### 背包型
