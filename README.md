@@ -190,6 +190,8 @@
 
 #### 第II類區間型
 [516. Longest Palindromic Subsequence](./Dynamic_Programming/516)\
+[312. Burst Balloons](./Dynamic_Programming/312)\
+[375. Guess Number Higher or Lower II](./Dynamic_Programming/375)\
 
 [1839. Longest Substring Of All Vowels in Order](./Dynamic_Programming/1839/)
 #### 背包型
