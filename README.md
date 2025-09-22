@@ -195,7 +195,9 @@
 
 [1839. Longest Substring Of All Vowels in Order](./Dynamic_Programming/1839/)
 #### 背包型
-[879. Profitable Schemes](./Dynamic_Programming/879/)
+[494. Target Sum](./Dynamic_Programming/494/)\
+[879. Profitable Schemes](./Dynamic_Programming/879/)\
+[956. Tallest Billboard](./Dynamic_Programming/956/)
 #### 其他
 [2355.Maximum Number of Books You Can Take](./Monotonic_Stack/2355/) 
 
