@@ -168,6 +168,7 @@
 [2867.Count Valid Paths in a Tree](./Union_Find/2867/)
 
 ### Dynamic Programming
+**思考模式: 狀態設計 + 最後一步思維(一個大問題的最優解，必然是由更小子問題的最優解 + 某個「最後一步」組成)**\
 
 #### 基本型I
 [198. House Robber](./Dynamic_Programming/198/)\
