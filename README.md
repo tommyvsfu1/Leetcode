@@ -193,12 +193,19 @@
 [516. Longest Palindromic Subsequence](./Dynamic_Programming/516)\
 [312. Burst Balloons](./Dynamic_Programming/312)\
 [375. Guess Number Higher or Lower II](./Dynamic_Programming/375)\
+[1246. Palindrome Removal](./Dynamic_Programming/1246)\
 
 [1839. Longest Substring Of All Vowels in Order](./Dynamic_Programming/1839/)
 #### 背包型
 [494. Target Sum](./Dynamic_Programming/494/)\
 [879. Profitable Schemes](./Dynamic_Programming/879/)\
-[956. Tallest Billboard](./Dynamic_Programming/956/)
+[956. Tallest Billboard](./Dynamic_Programming/956/)\
+[474. Ones and Zeroes](./Dynamic_Programming/474/)
+
+#### 狀態壓縮
+[691. Stickers to Spell Word](./Dynamic_Programming/691/)
+
+
 #### 其他
 [2355.Maximum Number of Books You Can Take](./Monotonic_Stack/2355/) 
 
