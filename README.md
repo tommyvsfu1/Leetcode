@@ -202,9 +202,9 @@
 [956. Tallest Billboard](./Dynamic_Programming/956/)\
 [474. Ones and Zeroes](./Dynamic_Programming/474/)
 
-#### 狀態壓縮
-[691. Stickers to Spell Word](./Dynamic_Programming/691/)
-
+#### 狀態壓縮(本質: 背包問題)
+[691. Stickers to Spell Word](./Dynamic_Programming/691/)\
+[1125. Smallest Sufficient Team](./Dynamic_Programming/1125/)\
 
 #### 其他
 [2355.Maximum Number of Books You Can Take](./Monotonic_Stack/2355/) 
