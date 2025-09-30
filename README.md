@@ -188,7 +188,7 @@
 [1278. Palindrome Partitioning III](./Dynamic_Programming/1278)\
 [813. Largest Sum of Averages](./Dynamic_Programming/813)\
 [410. Split Array Largest Sum](./Dynamic_Programming/410/)\
-
+[903. Valid Permutations for DI Sequence](./Dynamic_Programming/903/)\
 #### 第II類區間型
 [516. Longest Palindromic Subsequence](./Dynamic_Programming/516)\
 [312. Burst Balloons](./Dynamic_Programming/312)\
