@@ -139,7 +139,7 @@
 [2597.The Number of Beautiful Subsets](./DFS/2597-the-number-of-beautiful-subsets/)
 
 ### Graph
-[743.Network Delay Time](./Graph/743/)\
+[經典題 743.Network Delay Time](./Graph/743/)\
 [1334.Find the City With the Smallest Number of Neighbors at a Threshold Distance](./Graph/1334.Find-the-City-With-the-Smallest-Number-of-Neighbors-at-a-Threshold%20Distance/)
 
 ### Monotonic Stack
@@ -197,14 +197,14 @@
 
 [1839. Longest Substring Of All Vowels in Order](./Dynamic_Programming/1839/)
 #### 背包型
-[494. Target Sum](./Dynamic_Programming/494/)\
+[經典題 494. Target Sum](./Dynamic_Programming/494/)\
 [879. Profitable Schemes](./Dynamic_Programming/879/)\
 [956. Tallest Billboard](./Dynamic_Programming/956/)\
 [474. Ones and Zeroes](./Dynamic_Programming/474/)
 
 #### 狀態壓縮(本質: 背包問題)
-[691. Stickers to Spell Word](./Dynamic_Programming/691/)\
-[1125. Smallest Sufficient Team](./Dynamic_Programming/1125/)\
+[經典題 691. Stickers to Spell Word](./Dynamic_Programming/691/)\
+[經典題 1125. Smallest Sufficient Team](./Dynamic_Programming/1125/)\
 
 #### 其他
 [2355.Maximum Number of Books You Can Take](./Monotonic_Stack/2355/) 
