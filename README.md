@@ -115,7 +115,7 @@
 [2246. Longest Path With Different Adjacent Characters](./Tree/2246/)
 #### Lowest common ancestor 
 [235. Lowest Common Ancestor of a Binary Search Tree](./Tree/235/)\
-[236. Lowest Common Ancestor of a Binary Tree](./Tree/236/)\
+[經典題 236. Lowest Common Ancestor of a Binary Tree](./Tree/236/)\
 [1644. Lowest Common Ancestor of a Binary Tree II](./Tree/1644/)\
 [1650. Lowest Common Ancestor of a Binary Tree III](./Tree/1650/)\
 [1676. Lowest Common Ancestor of a Binary Tree IV](./Tree/1676/)\
