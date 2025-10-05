@@ -223,10 +223,10 @@ dp[i][j] = min(dp[i][j], dp[i][k] + dp[k][j])
 注意: Maximum 跟 Minimum ，要注意left, right移動的方向  
 
 #### Note 1
-GreaterThanOrEqual() -> 設計成 left = mid
-SmallerThanOrEqual() -> 設計成 right = mid
+**GreaterThanOrEqual() -> 設計成 left = mid**
+**SmallerThanOrEqual() -> 設計成 right = mid**
 
-TL;DR
+TL;DR\
 對於Top-K problem，很常用到GreaterThanOrEqual或是SmallerThanOrEqual兩種函式\
 count = GreaterThanOrEqual(nums, mid)，若count == k，那麼會讓low = mid，因為當count == k，代表目前mid一定小於或等於K-th largest element，如果大於那count就會是k-1了，你可以心理想一個實數軸，把K-th largest element和mid的值放在軸上想\
 反之，如果用SmallerThanOrEqual，則是反過來讓high = mid
