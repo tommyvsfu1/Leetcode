@@ -223,8 +223,8 @@ dp[i][j] = min(dp[i][j], dp[i][k] + dp[k][j])
 注意: Maximum 跟 Minimum ，要注意left, right移動的方向  
 
 #### Note 1
-**GreaterThanOrEqual() -> 設計成 left = mid**
-**SmallerThanOrEqual() -> 設計成 right = mid**
+**GreaterThanOrEqual() -> 設計成 left = mid**\
+**SmallerThanOrEqual() -> 設計成 right = mid**\
 
 TL;DR\
 對於Top-K problem，很常用到GreaterThanOrEqual或是SmallerThanOrEqual兩種函式\
