@@ -58,6 +58,12 @@
 [2555.Maximize Win From Two Segments](./Greedy/2555/)\
 [2874.Maximum Value of an Ordered Triplet II](./Greedy/2874/)
 
+### Priority Queue
+[經典題 703. Kth Largest Element in a Stream](./PriorityQueue/703/)\
+[經典題 1046. Last Stone Weight](./PriorityQueue/1046/)\
+[經典題 215. Kth Largest Element in an Array](./PriorityQueue/215/)\
+
+
 ### Binary Search
 [34. Find First and Last Position of Element in Sorted Array](./Binary_Search/34/)\
 [81.Search in Rotated Sorted Array II](./Binary_Search/81/)\
