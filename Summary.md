@@ -211,6 +211,18 @@ dp[i][j] = min(dp[i][j], dp[i][k] + dp[k][j])
 基本上就是recursion暴力解就對了
 
 ---
+# Priority Queue
+```
+Max Heap
+priority_queue<int> pq;
+
+Min Heap
+priority_queue<int, vector<int>, greater<int>> pq;
+```
+### Top-K problem
+Top-k greatest elements : 設計size為k的min heap，這樣可以在O(1)時間得到答案!
+
+---
 
 # Binary Search
 1. Search in sorted data
