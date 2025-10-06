@@ -62,7 +62,9 @@
 [經典題 703. Kth Largest Element in a Stream](./PriorityQueue/703/)\
 [經典題 1046. Last Stone Weight](./PriorityQueue/1046/)\
 [經典題 215. Kth Largest Element in an Array](./PriorityQueue/215/)\
-
+#### Arrangement with Stride題型
+[767. Reorganize String](./PriorityQueue/767/)\
+[621. Task Scheduler](./PriorityQueue/621/)\
 
 ### Binary Search
 [34. Find First and Last Position of Element in Sorted Array](./Binary_Search/34/)\
