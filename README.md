@@ -174,6 +174,7 @@
 [2866.Beautiful Towers II](./Monotonic_Stack/2866_2865/)
 
 ### Union Find
+[323. Number of Connected Components in an Undirected Graph](./Union_Find/323/)\
 [684.Redundant Connection](./Union_Find/684/)\
 [1489.Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](./Union_Find/1489/)\
 [2867.Count Valid Paths in a Tree](./Union_Find/2867/)
