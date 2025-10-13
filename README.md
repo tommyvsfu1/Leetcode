@@ -154,11 +154,12 @@
 [1334.Find the City With the Smallest Number of Neighbors at a Threshold Distance](./Graph/1334.Find-the-City-With-the-Smallest-Number-of-Neighbors-at-a-Threshold%20Distance/)
 
 ### Monotonic Stack
+[經典題 496.Next Greater Element I](./Monotonic_Stack/496/)\
+[經典題 503.Next Greater Element II](./Monotonic_Stack/503/)\
+[經典題 739. Daily Temperatures](./Monotonic_Stack/739/)\
 [42.Trapping Rain Water](./Monotonic_Stack/42/)\
 [84.Largest Rectangle in Histogram](./Monotonic_Stack/84/)\
 [85.Maximal Rectangle](./Monotonic_Stack/85/)\
-[496.Next Greater Element I](./Monotonic_Stack/496/)\
-[503.Next Greater Element II](./Monotonic_Stack/503/)\
 [768.Max Chunks To Make Sorted II](./Monotonic_Stack/768/)\
 [901.Online Stock Span](./Monotonic_Stack/901/)\
 [907.Sum of Subarray Minimums](./Monotonic_Stack/907/)\
