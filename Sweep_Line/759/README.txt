@@ -1,1 +1,1 @@
-sweep line經典題 (+1, -1)
+先merge interval，再根據merge interval求答案
