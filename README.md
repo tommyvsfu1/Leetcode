@@ -222,7 +222,8 @@
 #### 其他
 [2355.Maximum Number of Books You Can Take](./Monotonic_Stack/2355/) 
 
-### Sweep Line
+### Sweep Line and Difference Array
+#### Sweep Line
 [經典題 252. Meeting Rooms](./Sweep_Line/252/)\
 [經典題 253. Meeting Rooms II](./Sweep_Line/253/)\
 [經典題 56. Merge Intervals](./Sweep_Line/56/)\
@@ -230,6 +231,10 @@
 [732. My Calendar III](./Sweep_Line/732/)\
 [759. Employee Free Time](./Sweep_Line/759/)\
 [218. The Skyline Problem](./Sweep_Line/218/)\
+[2158. Amount of New Area Painted Each Day](./Sweep_Line/2158/)\
+
+#### Difference Array
+[1871. Jump Game VII](./Sweep_Line/1871/)\
 
 ### Bit_Manipulation
 [29. Divide Two Integers](./Bit_Manipulation/29/)\
