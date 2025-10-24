@@ -233,7 +233,9 @@
 [2158. Amount of New Area Painted Each Day](./Sweep_Line/2158/)\
 
 ### Difference Array
+[經典題 370. Range Addition](./Difference_Array/370/)\
 [1871. Jump Game VII](./Difference_Array/1871/)\
+[1109. Corporate Flight Bookings](./Difference_Array/1109/)\
 
 ### Bit_Manipulation
 [29. Divide Two Integers](./Bit_Manipulation/29/)\
