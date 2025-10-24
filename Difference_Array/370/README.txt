@@ -1,0 +1,2 @@
+經典difference array問題
+維護pre，腦中想像不斷更新等高線圖
