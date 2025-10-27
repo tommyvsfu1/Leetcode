@@ -238,6 +238,7 @@
 [1094. Car Pooling](./Difference_Array/1094/)\
 [1871. Jump Game VII](./Difference_Array/1871/)\
 [850. Rectangle Area II](./Difference_Array/850/)\
+[2132 Stamping the Grid](./Difference_Array/2132/)\
 
 ### Bit_Manipulation
 [29. Divide Two Integers](./Bit_Manipulation/29/)\
