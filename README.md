@@ -195,6 +195,8 @@
 [487. Max Consecutive Ones II](./Dynamic_Programming/487)\
 
 #### 雙序列
+[經典題 72. Edit Distance](./Dynamic_Programming/72/)\
+[583. Delete Operation for Two Strings](./Dynamic_Programming/583/)\
 [727. Minimum Window Subsequence](./Dynamic_Programming/727/)\
 
 #### 第I類區間型
