@@ -204,6 +204,9 @@
 [813. Largest Sum of Averages](./Dynamic_Programming/813)\
 [410. Split Array Largest Sum](./Dynamic_Programming/410/)\
 [903. Valid Permutations for DI Sequence](./Dynamic_Programming/903/)\
+[2547. Minimum Cost to Split an Array](./Dynamic_Programming/2547/)\
+[2472. Maximum Number of Non-overlapping Palindrome Substrings](./Dynamic_Programming/2472/)\
+
 #### 第II類區間型
 [516. Longest Palindromic Subsequence](./Dynamic_Programming/516)\
 [312. Burst Balloons](./Dynamic_Programming/312)\
