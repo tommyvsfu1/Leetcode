@@ -208,6 +208,7 @@
 [2472. Maximum Number of Non-overlapping Palindrome Substrings](./Dynamic_Programming/2472/)\
 
 #### 第II類區間型
+[經典題 131. Palindrome Partitioning](./Dynamic_Programming/131)\
 [516. Longest Palindromic Subsequence](./Dynamic_Programming/516)\
 [312. Burst Balloons](./Dynamic_Programming/312)\
 [375. Guess Number Higher or Lower II](./Dynamic_Programming/375)\
