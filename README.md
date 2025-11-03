@@ -140,7 +140,7 @@
 [785.Is Graph Bipartite?](./BFS/785/)\
 [1162.As Far from Land as Possible](./BFS/1162/)\
 [2812. Find the Safest Path in a Grid](./BFS/2812/)\
-*  Topological Sort
+*  Topological Sort\
 [1462.Course Schedule IV](./BFS/1462/)\
 [1136. Parallel Courses](./BFS/1136/)\
 ### DFS
@@ -152,7 +152,7 @@
 [2597.The Number of Beautiful Subsets](./DFS/2597-the-number-of-beautiful-subsets/)
 
 ### Graph
-#### Dijkstra
+*  Dijkstra\
 [經典題 743.Network Delay Time](./Graph/743/)\
 [1334.Find the City With the Smallest Number of Neighbors at a Threshold Distance](./Graph/1334.Find-the-City-With-the-Smallest-Number-of-Neighbors-at-a-Threshold%20Distance/)
 
