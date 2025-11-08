@@ -232,7 +232,10 @@
 [經典題 1125. Smallest Sufficient Team](./Dynamic_Programming/1125/)\
 
 #### 其他
-[2355.Maximum Number of Books You Can Take](./Monotonic_Stack/2355/) 
+[2355.Maximum Number of Books You Can Take](./Monotonic_Stack/2355/)\
+
+### Sorted Container
+[480.Sliding-Window-Median](./Sorted_Container/480/)\
 
 ### Sweep Line
 [經典題 252. Meeting Rooms](./Sweep_Line/252/)\
