@@ -1,46 +1,53 @@
-
 class Solution {
 public:
-    int kthSmallestSubarraySum(vector<int>& nums, int k) 
-    {
+    int kthSmallestSubarraySum(vector<int>& nums, int k) {
+        
         int n = nums.size();
-        vector<int> prefix(n+1, 0);
-        for (int i = 0; i < n; i++) {
-            prefix[i+1] = prefix[i] + nums[i];
+        vector<long long> presum(n+1, 0);
+        long long pre = 0;
+        for (int i = 1; i <= n; i++) {
+            presum[i] = presum[i-1] + nums[i-1];
         }
 
-
-        int left = 0;
-        int right = INT_MAX;
+        long long right = LONG_MAX;
+        long long left = 0;
 
         while (left < right) {
-            int mid = left + (right - left) / 2;
+            long long mid = left + (right - left) / 2;
 
-            int nu = NumLessOrEqual(prefix, mid);
-
-            if (nu >= k)
+            if (count(nums, presum, mid) >= k) {
                 right = mid;
-            else
+            }
+            else {
                 left = mid + 1;
+            }
         }
-
         return left;
     }
-
-    int NumLessOrEqual(vector<int>& presum, int t) {
+    int count(vector<int>& nums, vector<long long>& presum, long long mid) {
+        int n = nums.size();
         int res = 0;
-
-        int j = 0;
-        for (int i = 0; i < presum.size(); i++) {
-
-            while (j < presum.size() && presum[j] - presum[i] <= t) {
+        // for (int i = 1; i <= n; i++) {
+        //     auto iter = upper_bound(presum.begin(), presum.end(), mid + presum[i-1]);
+        //     res += (iter - (presum.begin() + i)); // [i, j-1]
+        // }
+        int j = 1;
+        for (int i = 1; i <= n; i++) {
+            while (j <= n && presum[j]-presum[i-1] <= mid) {
                 j++;
             }
-            // [i+1, j-1]
-            res = res + (j - (i+1));
-
+            res += (j-i);
         }
         return res;
     }
 };
+
+
+// prefix[i:j] = prefix[j] - prefix[i] == 0
+
+// prefix[j] - mid >= prefix[i]
+
+// nlog(n) * log(c)
+
+// subarray sum = prefix[j] - prefix[i-1] <= mid
 
