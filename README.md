@@ -194,6 +194,7 @@
 [309. Best Time to Buy and Sell Stock with Cooldown](./Dynamic_Programming/309)\
 [376. Wiggle Subsequence](./Dynamic_Programming/376)\
 [256. Paint House](./Dynamic_Programming/256)\
+[2036. Maximum Alternating Subarray Sum](./Dynamic_Programming/2036)\
 
 #### 基本型II
 [368. Largest Divisible Subset](./Dynamic_Programming/368/)\
