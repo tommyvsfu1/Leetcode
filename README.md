@@ -117,6 +117,8 @@
 [1660. Correct a Binary Tree](./Tree/1660/)\
 [2445. Number of Nodes With Value One](./Tree/2445/)\
 [2277. Closest Node to Path in Tree](./Tree/2277/)\
+[105. Construct Binary Tree from Preorder and Inorder Traversal](./Tree/105/)\
+[106. Construct Binary Tree from Inorder and Postorder Traversal](./Tree/106/)\
 
 #### Path in a tree
 [124. Binary Tree Maximum Path Sum](./Tree/124/)\
