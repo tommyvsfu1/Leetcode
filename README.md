@@ -81,6 +81,7 @@
 [2226.Maximum-Candies-Allocated-to-K-Children](./Binary_Search/2226/)\
 [2563. Count the Number of Fair Pairs](./Binary_Search/2563/)\
 [1533. Find the Index of the Large Integer](./Binary_Search/1533/)\
+[300. Longest Increasing Subsequence](./Binary_Search/300/)\
 
 *  Binary Lifting\
 [1483. Kth Ancestor of a Tree Node](./Binary_Search/1483/)\
