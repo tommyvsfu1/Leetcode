@@ -160,6 +160,9 @@
 [經典題 743.Network Delay Time](./Graph/743/)\
 [1334.Find the City With the Smallest Number of Neighbors at a Threshold Distance](./Graph/1334.Find-the-City-With-the-Smallest-Number-of-Neighbors-at-a-Threshold%20Distance/)
 
+*  Minimum Spanning Tree
+[1584. Min Cost to Connect All Points](./Graph/1584/)\
+
 ### Monotonic Stack
 [經典題 496.Next Greater Element I](./Monotonic_Stack/496/)\
 [經典題 503.Next Greater Element II](./Monotonic_Stack/503/)\
