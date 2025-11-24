@@ -266,6 +266,7 @@
 
 ### Linked List
 [146. LRU Cache](./Linked_List/146/)\
+[430. Flatten a Multilevel Doubly Linked List](./Linked_List/430/)\
 
 ### Bit_Manipulation
 [29. Divide Two Integers](./Bit_Manipulation/29/)\
