@@ -264,6 +264,9 @@
 [850. Rectangle Area II](./Difference_Array/850/)\
 [2132 Stamping the Grid](./Difference_Array/2132/)\
 
+### Linked List
+[146. LRU Cache](./Linked_List/146/)\
+
 ### Bit_Manipulation
 [29. Divide Two Integers](./Bit_Manipulation/29/)\
 
