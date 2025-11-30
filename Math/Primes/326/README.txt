@@ -1,0 +1,1 @@
+factorization概念

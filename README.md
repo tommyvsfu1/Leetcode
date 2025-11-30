@@ -272,4 +272,11 @@
 [29. Divide Two Integers](./Bit_Manipulation/29/)\
 
 ### Math
-[204. Count Primes](./Math/204/)\
+#### Primes
+[204. Count Primes](./Math/Primes/204/)\
+[326. Power of Three](./Math/Primes/326/)\
+[263. Ugly Number](./Math/Primes/263/)\
+[202. Happy Number](./Math/Primes/202/)\
+[264. Ugly Number II](./Math/Primes/264/)\
+[1998. GCD Sort of an Array](./Math/Primes/1998/)\
+[172. Factorial Trailing Zeroes](./Math/Primes/172/)\
