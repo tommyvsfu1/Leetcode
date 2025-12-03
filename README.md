@@ -149,6 +149,7 @@
 [1136. Parallel Courses](./BFS/1136/)\
 ### DFS
 [37.Sudoku Solver](./DFS/37.Sudoku-Solver/)\
+[78. Subsets](./DFS/78/)\
 [473.Matchsticks to Square](./DFS/473-matchsticks-to-square/)\
 [491.Non-decreasing Subsequences](./DFS/491.Non-decreasing-Subsequences/)\
 [698.Partition to K Equal Sum Subsets](./DFS/698.Partition-to-K-Equal-Sum-Subsets/)\
