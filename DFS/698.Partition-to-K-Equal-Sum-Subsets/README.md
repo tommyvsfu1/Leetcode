@@ -10,3 +10,8 @@ DFS的過程，可以先湊group，等確定能湊到euqal sum後，再往下湊
 sort(nums.begin(), nums.end());
 reverse(nums.begin(), nums.end());
 ```
+
+
+code_v2 是2025/12/4寫的版本，基本上就是自己寫的pruning方式
+這題主要需用到pruning技巧
+1.sorting, 2. start index(也就是先湊group) 
