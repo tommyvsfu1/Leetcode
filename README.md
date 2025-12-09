@@ -83,6 +83,9 @@
 [1533. Find the Index of the Large Integer](./Binary_Search/1533/)\
 [300. Longest Increasing Subsequence](./Binary_Search/300/)\
 
+*  Iterative Binary Search\
+[2300. Successful Pairs of Spells and Potions](./Binary_Search/2300/)\
+
 *  Binary Lifting\
 [1483. Kth Ancestor of a Tree Node](./Binary_Search/1483/)\
 [3559. Number of Ways to Assign Edge Weights II](./Binary_Search/3559)\
