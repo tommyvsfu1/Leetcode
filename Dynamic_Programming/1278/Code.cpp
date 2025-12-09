@@ -2,37 +2,47 @@ class Solution {
 public:
     int palindromePartition(string s, int K) {
         int n = s.size();
-
-        s = "#" + s;
-        vector<vector<int>> dp(n+1, vector<int>(K+1, INT_MAX/2));
-
-        dp[0][0] = 0;
-        for (int i = 1; i <= n; i++) {
-            for (int k = 1; k <= min(i,K); k++) {
-                for (int j = k; j <= i; j++) {
-                    dp[i][k] = min(dp[i][k], dp[j-1][k-1] + helper(s, j, i));
+        s.insert(s.begin(), '#');
+        vector<vector<int>> Palin(n+1, vector<int>(n+1, 0));
+        for (int len = 2; len <= n; len++) {
+            for (int i = 1; i+len-1 <= n; i++) {
+                int j = i + len - 1;
+                if (s[i] == s[j])  {
+                    if (i+1 <= n && j-1 >= 1) {
+                        if (len >= 3) {
+                            Palin[i][j] = Palin[i+1][j-1];
+                        }
+                    }
+                }
+                else {
+                    if (i+1 <= n && j-1 >= 1) {
+                        if (len == 2) {
+                            Palin[i][j] = 1;
+                        }
+                        else {
+                            Palin[i][j] = 1 + Palin[i+1][j-1];
+                        }
+                    }
                 }
             }
         }
 
-        return dp[n][K];
-    }
-    int helper(string& s, int a, int b) {
-        int count = 0;
-        while (a < b) {
-            if (s[a] != s[b]) count++;
-            a++;
-            b--;
+        vector<vector<int>> dp(K+1, vector<int>(n+1, INT_MAX/2));
+        dp[0][0] = 0;
+        for (int k = 1; k <= K; k++) {
+            for (int i = 1; i <= n; i++) {
+                for (int j = i; j >= 0; j--) {
+                    if (j-1 < k-1) break;
+                    dp[k][i] = min(dp[k][i], dp[k-1][j-1] + Palin[j][i]);
+                }
+            }
         }
-        return count;
+        return dp[K][n];
     }
 };
 
 
-// dp[i][k] : the minimal number of characters that you need to change to divide the s[1:i] into k substrings.
-/*
-X X X X X X [j ... i]
-<   k-1    ><kth set>
+// [X X X X X X X X][X X X X]
+//                   j     i
 
-dp[i][k] = min {dp[j-1][k-1] + helper(s, j, i) }, j = 1 ... i
-*/
+// dp[k][i] = min(dp[k][i], dp[k-1][j-1] + Count(j, i));

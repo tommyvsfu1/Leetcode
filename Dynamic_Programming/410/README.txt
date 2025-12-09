@@ -1,5 +1,8 @@
 // dp[i][j] :  the minimized largest sum of the split nums[1:i] into k subarrays
 
+
+code.cpp 是最新版本，改用K當作第一維度，覺得這樣的格式比較直覺
+
 // X X X X X [j ... i]
 // <   k-1  ><   k   >
 
