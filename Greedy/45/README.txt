@@ -1,0 +1,1 @@
+greedy (推土機類型, 維護最右邊界 (max_reach))

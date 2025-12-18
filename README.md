@@ -46,6 +46,19 @@
 [2875.Minimum Size Subarray in Infinite Array](./Prefix_Sum/2875/)
 
 ### Greedy
+[55. Jump Game](./Greedy/55)\
+[45. Jump Game II](./Greedy/45/)\
+[134. Gas Station](./Greedy/134/)\
+#### Interval
+[435.Non-overlapping-Intervals](./Greedy/435/)\
+[1288. Remove Covered Intervals](./Greedy/1288/)\
+
+#### Two Pointers (分配類型)
+[435.Non-overlapping-Intervals](./Greedy/455/)\
+[881. Boats to Save People](./Greedy/881/)\
+[3776. Minimum Moves to Balance Circular Array](./Greedy/3776/)\
+
+
 #### Three Pass
 [334.Increasing Triplet Subsequence](./Greedy/334/)\
 [689.Maximum Sum of 3 Non-Overlapping Subarrays](./Greedy/689/)\
@@ -85,7 +98,7 @@
 
 *  Iterative Binary Search\
 [2300. Successful Pairs of Spells and Potions](./Binary_Search/2300/)\
-
+[436. Find Right Interval](./Binary_Search/436/)\
 *  Binary Lifting\
 [1483. Kth Ancestor of a Tree Node](./Binary_Search/1483/)\
 [3559. Number of Ways to Assign Edge Weights II](./Binary_Search/3559)\
@@ -209,6 +222,7 @@
 
 #### 基本型II
 [368. Largest Divisible Subset](./Dynamic_Programming/368/)\
+[1235. Maximum Profit in Job Scheduling](./Dynamic_Programming/1235/)\
 
 #### To do or Not To Do
 [487. Max Consecutive Ones II](./Dynamic_Programming/487)\

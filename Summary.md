@@ -40,6 +40,12 @@ prefix[i-1] = prefix[j] - S
 ---
 
 # Greedy
+常用技巧是先Sorting再處理
+
+### Interval
+Sort by starting points => Minimum number of intervals covering the whole range
+Sort by ending points => Maximum number of non-overlapping intervals 
+
 ### Three Pass
 目前感覺是同時用到prefix/suffix的概念都會算是Three Pass問題
 不一定每個pass都是O(n)，有可能O(nlogn)，看題目\
