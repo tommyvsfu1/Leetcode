@@ -46,9 +46,7 @@
 [2875.Minimum Size Subarray in Infinite Array](./Prefix_Sum/2875/)
 
 ### Greedy
-[55. Jump Game](./Greedy/55)\
-[45. Jump Game II](./Greedy/45/)\
-[134. Gas Station](./Greedy/134/)\
+
 #### Interval
 [435.Non-overlapping-Intervals](./Greedy/435/)\
 [1288. Remove Covered Intervals](./Greedy/1288/)\
@@ -58,6 +56,12 @@
 [881. Boats to Save People](./Greedy/881/)\
 [3776. Minimum Moves to Balance Circular Array](./Greedy/3776/)\
 
+#### Jump Game / Coverage
+[55. Jump Game](./Greedy/55)\
+[45. Jump Game II](./Greedy/45/)\
+[134. Gas Station](./Greedy/134/)\
+[605. Can Place Flowers](./Greedy/605/)\
+[135. Candy](./Greedy/135/)\
 
 #### Three Pass
 [334.Increasing Triplet Subsequence](./Greedy/334/)\
