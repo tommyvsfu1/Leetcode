@@ -158,6 +158,9 @@
 [2096. Step-By-Step Directions From a Binary Tree Node to Another](./Tree/2096/)\
 [2509. Cycle Length Queries in a Tree](./Tree/2509/)\
 >90%的Tree題目都是用recursion
+#### Tree DP / Contribution
+[834. Sum of Distances in Tree](./Tree/834/)\
+[3786. Total Sum of Interaction Cost in Tree Groups](./Tree/3786/)\
 
 ### BFS (Including Topological Sort)
 [127.Word-Ladder](./BFS/127/)\
