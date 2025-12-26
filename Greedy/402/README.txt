@@ -1,0 +1,1 @@
+Greedy類型: 字典序與單調堆疊 (Lexicographical Order)

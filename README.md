@@ -63,6 +63,9 @@
 [605. Can Place Flowers](./Greedy/605/)\
 [135. Candy](./Greedy/135/)\
 
+#### Lexicographical and Monotonic Stack
+[402. Remove K Digits](./Greedy/402/)\
+
 #### Three Pass
 [334.Increasing Triplet Subsequence](./Greedy/334/)\
 [689.Maximum Sum of 3 Non-Overlapping Subarrays](./Greedy/689/)\
