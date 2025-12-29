@@ -79,6 +79,9 @@
 [2555.Maximize Win From Two Segments](./Greedy/2555/)\
 [2874.Maximum Value of an Ordered Triplet II](./Greedy/2874/)
 
+#### Math
+[3789. Minimum Cost to Acquire Required Items](./Greedy/3789/)\
+
 ### Priority Queue
 [經典題 703. Kth Largest Element in a Stream](./PriorityQueue/703/)\
 [經典題 1046. Last Stone Weight](./PriorityQueue/1046/)\
