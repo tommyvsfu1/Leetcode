@@ -312,3 +312,5 @@
 [264. Ugly Number II](./Math/Primes/264/)\
 [1998. GCD Sort of an Array](./Math/Primes/1998/)\
 [172. Factorial Trailing Zeroes](./Math/Primes/172/)\
+#### Divisible
+[3790. Smallest All-Ones Multiple](./Math/Divisible/3790/)\
