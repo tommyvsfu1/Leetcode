@@ -296,6 +296,10 @@
 [850. Rectangle Area II](./Difference_Array/850/)\
 [2132 Stamping the Grid](./Difference_Array/2132/)\
 
+### Cyclic Sort
+[41. First Missing Positive](./Cyclic_Sort/41/)\
+[442. Find All Duplicates in an Array](./Cyclic_Sort/442/)\
+
 ### Linked List
 [146. LRU Cache](./Linked_List/146/)\
 [430. Flatten a Multilevel Doubly Linked List](./Linked_List/430/)\
